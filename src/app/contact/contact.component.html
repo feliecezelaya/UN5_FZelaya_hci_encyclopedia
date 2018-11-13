@@ -1,0 +1,110 @@
+<div class="page-title">
+  <h3>Contact Us</h3>
+</div>
+
+<div>
+
+  <mat-card>
+    <mat-card-content>
+      <table>
+        <tr>
+          <td>
+            <div class="page-content">
+
+              <form>
+
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="First Name" type="text">
+                </mat-form-field>
+
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Last Name" type="text">
+                </mat-form-field>
+
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Email" type="email">
+                </mat-form-field>
+
+                <mat-form-field class="example-full-width">
+                  <input matInput #message maxlength="256" placeholder="Message">
+                  <mat-hint align="start"><strong>Don't disclose personal info</strong> </mat-hint>
+                  <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+                </mat-form-field>
+
+                <div class="send">
+                  <button mat-raised-button color="accent">Send</button>
+                </div>
+
+              </form>
+
+            </div>
+          </td>
+          <td>
+            <div>
+              <mat-card>
+                <mat-card-content>
+                  <h3>FAQs</h3>
+                  <div class="faqs">
+
+                    <div>
+                      <form>
+                        <mat-form-field class="full-width">
+                          <input type="search" matInput placeholder="Search...">
+                          <mat-icon matSuffix>search</mat-icon>
+                        </mat-form-field>
+                      </form>
+                    </div>
+
+                    <mat-accordion>
+                      <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                          <mat-panel-title>
+                            How to Navigate the App
+                          </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div>
+                          <p>
+                            You may browse to the different pages by selecting one of the menu options above.
+                          </p>
+                        </div>
+                      </mat-expansion-panel>
+                      <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                          <mat-panel-title>
+                            How to Return to Previous Page
+                          </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div>
+                          <p>
+                            Click the "Back" button to return to a previously visited page.
+                          </p>
+                        </div>
+                      </mat-expansion-panel>
+                      <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                          <mat-panel-title>
+                            Now to Get More Help
+                          </mat-panel-title>
+                        </mat-expansion-panel-header>
+
+                        <div>
+                          <p>
+                            Take a look at our Help page to discover more fun facts about our HCI Encyclopedia.
+                          </p>
+                        </div>
+                      </mat-expansion-panel>
+                    </mat-accordion>
+                  </div>
+                </mat-card-content>
+              </mat-card>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+    </mat-card-content>
+  </mat-card>
+
+</div>

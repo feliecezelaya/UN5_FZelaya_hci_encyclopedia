@@ -1,0 +1,41 @@
+.float-right {
+  float: right;
+}
+
+.faqs {
+  width: 250px;
+}
+
+.justify {
+  text-align: justify;
+  padding-right: 10px;
+}
+
+.page-title > h3 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: #1c4996;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.example-full-width {
+  width: 90%;
+}
+
+.send {
+  padding-top: 20px;
+}
+
+.full-width {
+  width: 100%;
+}

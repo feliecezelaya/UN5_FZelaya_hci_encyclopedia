@@ -1,0 +1,19 @@
+.float-right {
+  float: right;
+}
+
+.faqs {
+  width: 250px;
+}
+
+.justify {
+  text-align: justify;
+  padding-right: 10px;
+}
+
+.page-title > h3 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: #1c4996;
+  padding-top: 10px;
+  padding-left: 10px;
+}

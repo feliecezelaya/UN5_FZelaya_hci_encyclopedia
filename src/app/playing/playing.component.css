@@ -1,0 +1,35 @@
+.float-right {
+  float: right;
+}
+
+.faqs {
+  width: 250px;
+}
+
+.page-content {
+  padding-right: 10px;
+  width: 90%;
+}
+
+.page-content > p {
+  text-align: justify;
+}
+
+.page-title > h3 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: #1c4996;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.feature-img {
+  padding: 10px;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.full-width {
+  width: 100%;
+}

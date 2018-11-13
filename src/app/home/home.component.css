@@ -1,0 +1,54 @@
+.nav-bar {
+  background-color: #4286f4;
+  color: #f7faff;
+}
+
+.main-content {
+  background-color: #d9e6fc;
+}
+
+.inner-content {
+  background-color: #eff5ff;
+  justify-self: center;
+  width: 100%;
+  margin: auto;
+}
+
+.feature-card {
+  width: 275px;
+  height: 380px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-item {
+  padding: 10px;
+}
+
+.feature-img {
+  width: 307px;
+}
+
+.float-right {
+  float: right;
+}
+
+.search {
+  float: right;
+  height: 20px;
+  margin-top: -10px;
+}
+
+.mat-card-title {
+  padding-bottom: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.para-padding {
+  padding-left: 15px;
+}
